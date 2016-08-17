@@ -24,17 +24,9 @@
     },
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "drupal/lightning",
-                "version": "dev-panels-dev",
-                "source": {
-                    "url": "https://github.com/svendecabooter/lightning.git",
-                    "type": "git",
-                    "reference": "panels-dev"
-                }
-            }
-        },  
+            "type": "vcs",
+            "url": "https://github.com/svendecabooter/lightning.git"
+        },    
         {
             "type": "composer",
             "url": "https://packagist.drupal-composer.org"
