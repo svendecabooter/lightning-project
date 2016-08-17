@@ -68,6 +68,9 @@
                 "type:drupal-drush"
             ]
         },
-        "enable-patching": true
+        "enable-patching": true,
+        "branch-alias": {
+            "dev-panels-dev": "8.3.x-dev"
+        }        
     }
 }
