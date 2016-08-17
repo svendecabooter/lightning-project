@@ -24,12 +24,12 @@
     },
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://packagist.drupal-composer.org"
-        },
-        {
             "type": "vcs",
             "url": "https://github.com/svendecabooter/lightning.git"
+        },    
+        {
+            "type": "composer",
+            "url": "https://packagist.drupal-composer.org"
         }
     ],
     "scripts": {
